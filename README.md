@@ -1,0 +1,2 @@
+# XimBlock
+XimBlock Core wallet
