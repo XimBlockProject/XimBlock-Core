@@ -13,7 +13,7 @@ out collectively by the network. XIM Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the XIM Core software, see https://www.XIM.io/.
+the XIM Core software, see https://www.ximblock.io/.
 
 License
 -------
