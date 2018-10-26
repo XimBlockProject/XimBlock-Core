@@ -1,7 +1,7 @@
 XIM Core integration/staging tree
 ===================================
 
-https://www.XIM.io
+https://ximblock.io
 
 What is XIM?
 --------------
