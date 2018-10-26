@@ -1,0 +1,11 @@
+[Protocol]
+exec=ximblock-qt '%u'
+protocol=ximblock
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

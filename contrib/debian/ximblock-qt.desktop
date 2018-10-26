@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XIM
+Comment=XIM P2P Cryptocurrency
+Comment[fr]=XIM, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=XIM, eşten eşe kriptografik sanal para birimi
+Exec=ximblock-qt %u
+Terminal=false
+Type=Application
+Icon=ximblock128
+MimeType=x-scheme-handler/ximblock;
+Categories=Office;Finance;

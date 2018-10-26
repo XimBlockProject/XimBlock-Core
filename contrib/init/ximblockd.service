@@ -1,0 +1,26 @@
+[Unit]
+Description=XIM's distributed currency daemon
+After=network.target
+
+[Service]
+User=ximblock
+Group=ximblock
+
+Type=forking
+PIDFile=/var/lib/ximblockd/ximblockd.pid
+
+ExecStart=/usr/bin/ximblockd -daemon -pid=/var/lib/ximblockd/ximblockd.pid \
+          -conf=/etc/ximblock/ximblock.conf -datadir=/var/lib/ximblockd
+
+ExecStop=-/usr/bin/ximblock-cli -conf=/etc/ximblock/ximblock.conf \
+         -datadir=/var/lib/ximblockd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

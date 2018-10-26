@@ -1,0 +1,26 @@
+# /etc/conf.d/ximblockd: config file for /etc/init.d/ximblockd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ximblock/ximblock.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ximblockd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ximblockd.pid"
+
+# Where to write ximblockd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ximblockd"
+
+# User and group to own ximblockd process
+#BITCOIND_USER="ximblock"
+#BITCOIND_GROUP="ximblock"
+
+# Path to ximblockd executable
+#BITCOIND_BIN="/usr/bin/ximblockd"
+
+# Nice value to run ximblockd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
